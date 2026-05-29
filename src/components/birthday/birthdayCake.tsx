@@ -71,15 +71,20 @@ export default function BirthdayCake() {
 
       {/* UI Overlay */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none flex flex-col items-center justify-center p-4">
-        <h1
-          className="text-[clamp(30px,6vw,60px)] color-[#fff] text-center mb-2 font-bold"
-          style={{ animation: "pulse 2s ease-in-out infinite" }} // ໃຊ້ custom keyframe ແສງກະພິບ
+        <div 
+          className="text-center text-white mb-6 flex flex-col gap-1 select-none"
+          style={{ animation: "pulse 2s ease-in-out infinite" }}
         >
-          🎂 Happy Birthday 🎂
-
-          <h2>My Baby </h2>
-          <h1>Meilee</h1>
-        </h1>
+          <h1 className="text-[clamp(28px,5vw,50px)] font-extrabold tracking-wide text-white">
+            🎂 Happy Birthday 🎂
+          </h1>
+          <h2 className="text-[clamp(18px,3.5vw,28px)] font-medium text-pink-300 tracking-wider">
+            My Baby
+          </h2>
+          <h1 className="text-[clamp(36px,7vw,65px)] font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-b from-white via-pink-100 to-pink-400 drop-shadow-[0_0_35px_rgba(255,20,147,0.8)]">
+            Meilee
+          </h1>
+        </div>
         <p className="text-[clamp(15px,3vw,24px)] text-[#ffb3d9] text-center mb-8 drop-shadow-[0_0_20px_#ff69b4]">
           ຮັກເຈົ້າຫຼາຍໆ 💕
         </p>
