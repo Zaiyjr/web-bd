@@ -9,7 +9,7 @@ const MEMORY_PHOTOS = [
   { id: 2, url: "/images/vv3.jpg", caption: "ແຄມນ້ຳຊອງ ວັງວຽງ 🥰" },
   { id: 3, url: "/images/lpb.jpg", caption: "ຕະຫລາດມືດ ຫຼວງພະບາງ 📸" },
   { id: 4, url: "/images/lpb2.jpg", caption: "POPOLO LPB 💖" },
-  { id: 5, url: "/images/cd.jpg", caption: "Countdown 2025 🥰" },
+  { id: 5, url: "/images/cd.JPG", caption: "Countdown 2025 🥰" },
   { id: 6, url: "/images/c.jpg", caption: "ແມວຂອງເຮົາ 💖" },
   { id: 7, url: "/images/m.jpg", caption: "She with my mom 🥰" },
 ];
